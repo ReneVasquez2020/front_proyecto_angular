@@ -6,6 +6,7 @@ import { InicioComponent } from './inicio/inicio.component';
 import { BlogComponent } from './blog/blog.component';
 import { ServicioComponent } from './servicio/servicio.component';
 import { ContactoComponent } from './contacto/contacto.component';
+import { WebComponent } from './web.component';
 
 
 @NgModule({
@@ -13,7 +14,8 @@ import { ContactoComponent } from './contacto/contacto.component';
     InicioComponent,
     BlogComponent,
     ServicioComponent,
-    ContactoComponent
+    ContactoComponent,
+    WebComponent
   ],
   imports: [
     CommonModule,
